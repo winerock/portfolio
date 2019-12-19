@@ -1,0 +1,241 @@
+:root {
+    --primary: rgba(228, 56, 56, 0.726);
+    --accent: rgba(57, 120, 161, 0.87);
+    --dk-gray: rgb(50, 54, 56);
+    --lt-gray: #F9FBFC;
+    --white: #ffffff;
+}
+
+.bg-primary {
+    background-color: var(--accent) !important;
+}
+
+.text-dark {
+    color: var(--dk-gray);
+}
+
+.text-accent {
+    color: var(--accent);
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+body {
+    position: relative;
+}
+
+.section {
+    padding-top: 20px;
+}
+
+a, a:hover, a:active a:visited, a:focus, a:link {
+    text-decoration: none;
+}
+
+/* ------------ HEADER ------------ */
+.jumbotron {
+    background-image: linear-gradient(#156c9f, var(--primary));
+    /* Lighter blue gradient */
+    /* background-image: linear-gradient(var(--primary), #bde1f6); */
+    color: var(--white);
+    margin: 0 auto;
+    /* Texture option */
+    /* background-color: var(--primary);
+    background-image: url("https://www.transparenttextures.com/patterns/white-wall-3.png"); */
+}
+
+ .jumbotron-fluid {
+    padding-right:0;
+    padding-left:0;
+    margin-right:auto;
+    margin-left:auto
+ }
+
+ .jumbotron h1 {
+    letter-spacing: .08rem;
+    font-weight: bold;
+ }
+
+ .jumbotron h2 {
+     font-size: 1.4rem;
+     letter-spacing: .08rem;
+ }
+
+/* .masthead {
+    background-color: var(--primary);
+} */
+
+h1, h2 {
+    font-weight: bold;
+}
+
+hr {
+    border: 1px solid var(--lt-gray);
+    margin-top: 8px;
+    margin-bottom: 8px;
+    box-shadow: -2px 1px 2px var(--primary);
+}
+
+.icon-style {
+    background-color: var(--white);
+    padding: .5rem;
+    border-radius: 50%;
+    color: var(--accent);
+    margin: 10px 5px;
+    box-shadow: -2px 1px 5px var(--dk-gray);
+    font-size: 1.4rem;
+}
+
+.fa-linkedin:hover,
+.fa-github:hover,
+.fa-twitter:hover,
+.fa-globe:hover,
+.fa-envelope:hover {
+    color: var(--white);
+    background-color: var(--accent);
+}
+
+/* ------------ NAVIGATION ------------ */
+.navbar {
+    letter-spacing: .1rem;
+}
+
+.navbar-brand {
+    color: var(--white);
+}
+
+.navbar-brand:hover {
+    color: var(--accent);
+}
+
+.navbar-toggler-icon {
+    color: var(--white);
+}
+
+.navbar-toggler-icon:hover {
+    color: var(--accent);
+}
+
+.button:focus {
+    outline: none;
+}
+
+.navbar-toggler {
+    border: none;
+    line-height: inherit;
+}
+
+.fa-bars {
+    font-size: 1.4rem;
+    
+}
+
+.navbar-nav a {
+    color: var(--white);
+}
+
+.navbar-nav a:hover {
+    color: var(--accent);
+    background-color: var(--white);
+}
+
+/* Trying to fix scrollspy navbar colors... */
+/* .navbar-nav > .active{
+    color: #000;
+    background: #d65c14;
+}
+.navbar-nav > .active > a,
+.navbar-nav > .active > a:hover,
+.navbar-nav > .active > a:focus {
+    color: #000;
+    background: #d65c14;
+} */
+
+
+
+/* ------------ ABOUT (+ FOOTER) ------------ */
+.skill-icon {
+    font-size: 1.75rem;
+    padding: .6rem;
+    margin: .6rem;
+    border-radius: 50%;
+    border: 2px solid var(--white);
+    text-align: center;
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+}
+
+.btn-style {
+    border: 1px solid var(--primary);
+    letter-spacing: .07rem;
+    font-weight: 600;
+    box-shadow: -1px 1px 3px var(--dk-gray);
+    font-size: .8rem;
+    background-color: var(--white);
+    color: var(--dk-gray);
+}
+
+.btn-style span {
+    font-size: 1rem;
+    color: var(--accent);
+}
+
+.btn-style:hover {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+/* ------------ SKILLS (+ PORTFOLIO) ------------ */
+.github-static {
+    pointer-events: none;
+}
+
+/* ------------ PUBLICATIONS ------------ */
+
+h3 {
+    font-weight: bold;
+    color: var(--accent);
+}
+
+.pub-card {
+    border: 2px solid var(--primary);
+    max-width: 300px;
+    min-height: 375px;
+}
+
+.pub-title {
+    min-height: 48px;
+}
+
+.pub-link {
+    color: var(--accent);
+}
+
+.pub-link:hover {
+    color: var(--primary);
+}
+
+/* ------------ CONTACT ------------ */
+.btn-submit {
+    font-size: 1.0rem;
+}
+
+/* ------------ FOOTER ------------ */
+footer {
+    background-image: linear-gradient(var(--primary), #156c9f);
+    color: var(--lt-gray);
+}
+
+.fa-chevron-up {
+    color: var(--lt-gray);
+}
+.fa-chevron-up:hover {
+    color: var(--white);
+}
+
+.fa-copyright {
+    color: var(--white);
+}
