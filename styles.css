@@ -141,19 +141,6 @@ hr {
     background-color: var(--white);
 }
 
-/* Trying to fix scrollspy navbar colors... */
-/* .navbar-nav > .active{
-    color: #000;
-    background: #d65c14;
-}
-.navbar-nav > .active > a,
-.navbar-nav > .active > a:hover,
-.navbar-nav > .active > a:focus {
-    color: #000;
-    background: #d65c14;
-} */
-
-
 
 /* ------------ ABOUT (+ FOOTER) ------------ */
 .skill-icon {
