@@ -1,5 +1,3 @@
-# portfolio
-
 # Emily Winerock: Portfolio Site
 [https://github.com/winerock/portfolio](https://github.com/winerock/portfolio)
 
