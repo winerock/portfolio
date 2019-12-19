@@ -2,7 +2,7 @@
     --primary: rgba(228, 56, 56, 0.726);
     --accent: rgba(57, 120, 161, 0.87);
     --dk-gray: rgb(50, 54, 56);
-    --lt-gray: #F9FBFC;
+    --lt-gray: rgb(187, 193, 196);
     --white: #ffffff;
 }
 
@@ -201,7 +201,7 @@ h3 {
 }
 
 .pub-card {
-    border: 2px solid var(--primary);
+    border: 2px solid var(--lt-gray);
     max-width: 300px;
     min-height: 375px;
 }
@@ -233,9 +233,9 @@ footer {
     color: var(--lt-gray);
 }
 .fa-chevron-up:hover {
-    color: var(--white);
+    color: var(--lt-gray);
 }
 
 .fa-copyright {
-    color: var(--white);
+    color: var(--lt-gray);
 }
