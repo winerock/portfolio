@@ -42,7 +42,7 @@
 
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-md sticky-top bg-primary text-uppercase">
+    <nav class="navbar navbar-expand-md sticky-top bg-accent text-uppercase">
         <div class="container">
             <a class="navbar-brand" href="#">Emily Winerock</a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
@@ -51,14 +51,15 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
+
                     <li class="nav-item mx-2">
-                        <a class="nav-link" href="#about">About Me</a>
-                    </li>
-                    <li class="nav-item mx-2">
-                        <a class="nav-link" href="#portfolio">Recent Projects</a>
+                        <a class="nav-link" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item mx-2">
                         <a class="nav-link" href="#publications">Publications</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#about">About&nbspMe</a>
                     </li>
                     <li class="nav-item mx-2">
                         <a class="nav-link" href="#contact">Contact</a>
@@ -68,76 +69,119 @@
         </div>
     </nav>
     
-    <!-- About -->
-    <section class="section" id="about">
+    <!-- Projects -->
+    <section class="section" id="projects">
         <div class="container text-dark mb-5">
-            <h2 class="text-center my-5 text-uppercase">About Me</h2>
-            <div class="row">
-                <div class="col-md-5 ml-auto my-auto">
-                    <p>I've been an English teacher and a history professor, a bookseller and a dancer.
-                        As a freelance editor, I've edited everything from market reports and trend forecasts, 
-                        to theatre reviews, grant proposals, and a <a class="pub-link" href="https://www.amazon.com/Bitcoin-Befuddled-Conrad-Barski/dp/1593275730
-                    " target="_blank">book about Bitcoin</a>. 
-                </p>
-                    <p>Since the 90s, I've dabbled in web design and development, creating pages for non-profit 
-                        organizations and scholarly societies, as well as maintaining my very old-school website. 
-                        More recently, thanks to the <a class="pub-link" href="https://www.momscan.co/momscancode" target="_blank">Moms Can Code School</a>, 
-                        I've been updating and extending my coding skills.
-                     </p>  
-                    
-                    <p> While computer science is generally categorized as a STEM field, I've discovered that 
-                        the "eagle eye" of the editor comes in handy when coding, as do the 
-                        research skills of the scholar, and the attention to balance and aesthetics of the choreographer.
-                    
-                    </p>
-          
+            <h2 class="container-header my-5 text-uppercase">Projects</h2>
+            <!-- Project 5 -->
+            <div class="row my-5">
+                <div class="col-sm-12 col-lg-6 order-lg-12">
+                    <div class="card border-0">
+                        <a href="https://makeup-mirage.netlify.com/" target="_blank">
+                            <img class="shadow card-img-top" src="https://i.ibb.co/Kjf0k0K/mirage-screenshot2.jpg" width="100%">
+                        </a>
+                        <div class="card-body">
+                            <div class="d-flex justify-content-around">
+                                <a href="https://github.com/momscancode5/makeup_mirage/" target="_blank" 
+                                    class="btn btn-style text-uppercase mx-1"><span><i
+                                            class="fab fa-github github-static mr-1"></i></span>GitHub</a>
+                                <a href="https://www.loom.com/share/77d7f39e49bd482599af4c167c24e2e9" target="_blank" 
+                                    class="btn btn-style text-uppercase mx-1">
+                                    <span><i class="fab fa-figma mr-1"></i></span>Explainer Video
+                                </a>
+                                <a href="https://makeup-mirage.netlify.com/" target="_blank" class="btn btn-style text-uppercase mx-1"><span><i
+                                            class="fas fa-globe mr-1"></i></span>Website</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-4 mr-auto d-md-none d-lg-block">
-                    <img class="shadow img-fluid" src="https://i.ibb.co/P4ktVMS/winerock-headshot.jpg" width="100%">
-                </div>
-                <div class="col-md-4 mr-auto d-none d-md-block d-lg-none">
-                    <img class="shadow img-fluid" src="https://i.ibb.co/P4ktVMS/winerock-headshot.jpg" width="100%">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Skills -->
-    <section>
-        <div class="container-fluid text-center text-white bg-primary">
-        <div class="row">
-            <div class="col-sm-12 col-md-6 text-md-right px-0">
-                <div class="container px-0">
-                    Skills <!-- [Skills I have or am in the process of acquiring] -->
-                    <i class="skill-icon fab fa-git-alt"></i>
-                    <!-- <i class="skill-icon icon-git"></i> -->
-                    <i class="skill-icon fab fa-github github-static"></i>
-                    <i class="skill-icon fab fa-html5"></i>
-                    <!-- <i class="skill-icon icon-html5-alt"></i> -->
-                    <i class="skill-icon fab fa-css3-alt"></i>
-                    <!-- <i class="skill-icon icon-css3-alt"></i> -->
+                <div class="col-sm-12 col-lg-6 order-lg-1">
+                    <div class="card border-0">
+                        <div class="card-body pt-0">
+                            <h3 class="card-title">Makeup Mirage</h3>
+                            <p class="card-text"> I helped design, develop, and build this MVP (minimal viable product) in a team of five. 
+                                The website is a one-stop shop for those who have had adverse reactions to makeup or who suspect they have
+                                acquired counterfeit cosmetics. Site development was informed by the +100 responses we received for the 
+                                user survey we created and circulated via social media. The site features trending news, ingredient information, 
+                                educational resources, safety tips, and reporting information.
+                            </p>
+                            <p class="card-text text-muted">Technologies used: HTML, CSS, VSC, Bulma, JavaScript, Firebase, Git, GitHub, Netlify</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-6 text-md-left px-0">
-                <div class="container px-0">
-                    <i class="skill-icon fab fa-js"></i>
-                    <!-- <i class="skill-icon icon-javascript-alt"></i> -->
-                   <!-- <i class="skill-icon icon-ruby"></i> -->
-                   <!--  <i class="skill-icon icon-ruby-on-rails"></i> -->
-                    <!-- <i class="skill-icon icon-python"></i> -->
-                    <!-- <i class="skill-icon fab fa-python"></i> -->
+            <!-- Project 3 -->
+            <div class="row my-5">
+                <div class="col-sm-12 col-lg-6">
+                    <div class="card border-0">
+                        <a href="https://historically-authentic-grace.netlify.com/">
+                            <img class="shadow card-img-top" src="https://i.ibb.co/Xb7JXsG/authenticgrace-v1-screenshot.jpg" width="100%">
+                        </a>
+                        <div class="card-body">
+                            <div class="d-flex justify-content-around">
+                                <a href="https://github.com/winerock/authentic_grace" target="_blank" 
+                                class="btn btn-style text-uppercase mx-1"><span><i
+                                        class="fab fa-github github-static mr-1"></i></span>GitHub</a>
+                            <a href="https://www.canva.com/design/DADwStfzwnM/KvTiU1HFrt9kz2fXHuKyJw/view?website#4:authentic-grace" target="_blank" 
+                                class="btn btn-style text-uppercase mx-1">
+                                <span><i class="fab fa-figma mr-1"></i></span>Wireframe
+                            </a>
+                            <a href="https://historically-authentic-grace.netlify.com/" target="_blank" class="btn btn-style text-uppercase mx-1"><span><i
+                                        class="fas fa-globe mr-1"></i></span>Website</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-6">
+                    <div class="card border-0">
+                        <div class="card-body pt-0">
+                            <h3 class="card-title">Authentic Grace 1.0</h3>
+                            <p class="card-text">This project was to design and develop an MVP for a front-end landing page 
+                                for Authentic Grace, a fictional clothing store. The project was a collaboration with 
+                                <a href="https://shraddhakdoshi.github.io/my-portfolio/">Shradha Doshi</a>.</p>
+                            <p class="card-text text-muted">Technologies used: HTML, CSS, VSC, Flexbox, JavaScript, Canva, Git, GitHub, Netlify</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        </div>
-            
+            <hr class="d-lg-none" width="30%">
         
-    </section>
-    
-    <!-- Portfolio -->
-    <section class="section" id="portfolio">
-        <div class="container text-dark mb-5">
-            <h2 class="text-center my-5 text-uppercase">Recent Projects</h2>
+            <!-- Project 4 -->
+            <div class="row my-5">
+                <div class="col-sm-12 col-lg-6 order-lg-12">
+                    <div class="card border-0">
+                        <a href="https://historically-authentic-grace.netlify.com/elizabethan-gown.html">
+                            <img class="shadow card-img-top" src="https://i.ibb.co/G5Y3cgd/authenticgrace-v2-screenshot.jpg" width="100%">
+                        </a>
+                        <div class="card-body">
+                            <div class="d-flex justify-content-around">
+                                <a href="https://github.com/winerock/authentic_grace/blob/master/elizabethan-gown.html" target="_blank" 
+                                    class="btn btn-style text-uppercase mx-1"><span><i
+                                            class="fab fa-github github-static mr-1"></i></span>GitHub</a>
+                                <a href="https://i.ibb.co/sQVpscq/Figma-Wire-Frame-Elizabethan-Gown.jpg" target="_blank" 
+                                    class="btn btn-style text-uppercase mx-1">
+                                    <span><i class="fab fa-figma mr-1"></i></span>Wireframe
+                                </a>
+                                <a href="https://historically-authentic-grace.netlify.com/elizabethan-gown.html" target="_blank" class="btn btn-style text-uppercase mx-1"><span><i
+                                            class="fas fa-globe mr-1"></i></span>Website</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-6 order-lg-1">
+                    <div class="card border-0">
+                        <div class="card-body pt-0">
+                            <h3 class="card-title">Authentic Grace 2.0</h3>
+                            <p class="card-text">This project is a revision and extension of the original front-end landing page 
+                                for the fictional clothing store, Authentic Grace. The main addition is a product page. Whereas 
+                                the first version was a collaboration, this version was done solely by Emily Winerock. 
+                            </p>
+                            <p class="card-text text-muted">Technologies used: HTML, CSS, VSC, Flexbox, JavaScript, Figma, Git, GitHub, Netlify</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
             <!-- Project 1 -->
             <div class="row my-5">
                 <div class="col-sm-12 col-lg-6">
@@ -210,74 +254,6 @@
             </div>
             <hr class="d-lg-none" width="30%">
 
-            <!-- Project 3 -->
-            <div class="row my-5">
-                <div class="col-sm-12 col-lg-6">
-                    <div class="card border-0">
-                        <a href="https://loving-minsky-8fe614.netlify.com/">
-                            <img class="shadow card-img-top" src="https://i.ibb.co/WkYXvf0/git-keystrokes.png" width="100%">
-                        </a>
-                        <div class="card-body">
-                            <div class="d-flex justify-content-around">
-                                <a href="https://github.com/winerock/portfolio" target="_blank" 
-                                class="btn btn-style text-uppercase mx-1"><span><i
-                                        class="fab fa-github github-static mr-1"></i></span>GitHub</a>
-                            <a href="https://www.figma.com/" target="_blank" 
-                                class="btn btn-style text-uppercase mx-1">
-                                <span><i class="fab fa-figma mr-1"></i></span>Wireframe
-                            </a>
-                            <a href="https://winerock.github.io/portfolio/" target="_blank" class="btn btn-style text-uppercase mx-1"><span><i
-                                        class="fas fa-globe mr-1"></i></span>Website</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-lg-6">
-                    <div class="card border-0">
-                        <div class="card-body pt-0">
-                            <h3 class="card-title">Future Project</h3>
-                            <p class="card-text">I don't know what this project is yet, but I'm sure it will be awesome!</p>
-                            <p class="card-text text-muted">Technologies used: HTML, CSS, Flexbox, JavaScript, Figma, Git, GitHub, Netlify</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <hr class="d-lg-none" width="30%">
-
-            <!-- Project 4 -->
-            <div class="row my-5">
-                <div class="col-sm-12 col-lg-6 order-lg-12">
-                    <div class="card border-0">
-                        <a href="https://authenticgraceboutique.netlify.com/perfect-skinny-jeans.html">
-                            <img class="shadow card-img-top" src="https://i.ibb.co/WkYXvf0/git-keystrokes.png" width="100%">
-                        </a>
-                        <div class="card-body">
-                            <div class="d-flex justify-content-around">
-                                <a href="https://github.com/winerock/portfolio" target="_blank" 
-                                    class="btn btn-style text-uppercase mx-1"><span><i
-                                            class="fab fa-github github-static mr-1"></i></span>GitHub</a>
-                                <a href="https://www.figma.com/" target="_blank" 
-                                    class="btn btn-style text-uppercase mx-1">
-                                    <span><i class="fab fa-figma mr-1"></i></span>Wireframe
-                                </a>
-                                <a href="https://winerock.github.io/portfolio/" target="_blank" class="btn btn-style text-uppercase mx-1"><span><i
-                                            class="fas fa-globe mr-1"></i></span>Website</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-lg-6 order-lg-1">
-                    <div class="card border-0">
-                        <div class="card-body pt-0">
-                            <h3 class="card-title">Final Project</h3>
-                            <p class="card-text">This team project will be utterly fantastic, whatever it is!
-                            </p>
-                            <p class="card-text text-muted">Technologies used: HTML, CSS, JavaScript, Figma, Git, GitHub</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
             
         </div>
 
@@ -286,9 +262,8 @@
 
     <!-- Publications -->
     <section class="section" id="publications">
-        <hr width="60%">
         <div class="container text-dark mb-5">
-            <h2 class="text-center my-5 text-uppercase">Publications</h2>
+            <h2 class="container-header my-5 text-uppercase">Publications</h2>
 
             <!-- Publication 1 -->
             <div class="row d-flex justify-content-around">
@@ -340,12 +315,62 @@
         </div>
     </section>
 
+    
+    <!-- About -->
+    <section class="section" id="about">
+        <!-- <hr width="60%"> -->
+        <div class="container text-dark mb-5">
+            <h2  class="container-header my-5 text-uppercase">About Me</h2>
+            <div class="row">
+                <div class="col-md-5 ml-auto my-auto">
+                    <p>I've been an English teacher and a history professor, a bookseller and a dancer.
+                        As a freelance editor, I've edited everything from market reports and trend forecasts, 
+                        to theatre reviews, grant proposals, and a <a class="pub-link" href="https://www.amazon.com/Bitcoin-Befuddled-Conrad-Barski/dp/1593275730
+                    " target="_blank">book about Bitcoin</a>. 
+                </p>
+                    <p>Since the 90s, I've dabbled in web design and development, creating pages for non-profit 
+                        organizations and scholarly societies, as well as maintaining my very old-school website. 
+                        More recently, thanks to the <a class="pub-link" href="https://www.momscan.co/momscancode" target="_blank">Moms Can Code School</a>, 
+                        I've been updating and extending my coding skills.
+                     </p>  
+                    
+                    <p> While computer science is generally categorized as a STEM field, I've discovered that 
+                        the "eagle eye" of the editor comes in handy when coding, as do the 
+                        research skills of the scholar, and the attention to balance and aesthetics of the choreographer.
+                    
+                    </p>
+    <!-- Skills -->               
+                    <div class="container-fluid text-center text-white bg-accent">
+                        
+                        Skills <!-- [Skills I have or am in the process of acquiring] -->
+                        <i class="skill-icon fab fa-git-alt"></i>
+                        <i class="skill-icon fab fa-github github-static"></i>
+                        <i class="skill-icon fab fa-html5"></i>
+                        <i class="skill-icon fab fa-css3-alt"></i>
+                        <i class="skill-icon fab fa-js"></i>
+                        <p></p>
+                    </div>
+          
+                </div>
+                
+                <div class="col-md-4 mr-auto d-md-none d-lg-block">
+                    <img class="shadow img-fluid" src="https://i.ibb.co/P4ktVMS/winerock-headshot.jpg" width="100%">
+                </div>
+                <div class="col-md-4 mr-auto d-none d-md-block d-lg-none">
+                    <img class="shadow img" src="https://i.ibb.co/P4ktVMS/winerock-headshot.jpg" width="100%">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    
 
     <!-- Contact -->
     <section class="section" id="contact">
-        <hr width="60%">
         <div class="container text-dark mb-5 pb-3">
-            <h2 class="text-center my-5 text-uppercase">Contact</h2>
+            <h2 class="container-header my-5 text-uppercase">Contact</h2>
             <div class="row">
                 <div class="col-lg-4 ml-auto my-auto">
                     <p>I'd love to hear from you!<br/><br/>Whether you're interested in working together, or just wanting to say hello, you can send me a message here or contact me through social media.
